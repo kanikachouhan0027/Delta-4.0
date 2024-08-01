@@ -1,0 +1,32 @@
+
+        .parent {
+            font-size:40px;
+            width: 300px;
+            margin:20px;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        .child {
+            font-size:50px;
+            width:1.3em ;
+            height: 50%;
+            margin: 10%;
+            background-color: lightcoral;
+        }
+
+        button{
+            font-size:40px;
+            border:0.2em solid black;
+            border-radius:2em;
+            width:4em;
+            padding:0.5em;
+            margin:3em;
+        } 
+
+
+div{
+     font-size:2em; /*larger hote jayenge */
+    font-size:0.5em; /*chote hote jayenge */
+}
+    

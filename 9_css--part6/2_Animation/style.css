@@ -1,0 +1,23 @@
+.container
+{
+    height:100px;
+    width:700px;
+    background-color:aqua;
+    animation:width;
+    animation-duration:5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes Font{
+    from{font-size:10px;}
+    to{font-size:40px;}
+}
+@keyframes color{
+    from{background-color:aqua}
+    to{background-color:pink;}
+}
+@keyframes width{
+    from{width:20px;}
+    to{width:400px;}
+}

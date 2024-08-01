@@ -1,0 +1,33 @@
+#container{
+    height:400px;
+    width:800px;
+    margin:10px auto;
+    border:2px solid black;
+    background-color:azure;
+    display:flex;
+    flex-direction:row;
+   justify-content:start;
+   
+} 
+#container div{
+    height:100px;
+    width:70px;
+    
+    text-align:center;
+    color:white;
+}
+h1{
+    text-align:center;
+}
+#green{
+     flex-grow:2; 
+    /* flex-shrink:1; */
+}
+#blue{
+   flex-grow:1; 
+    /* flex-shrink:2; */
+}
+#org{
+     flex-grow:1; 
+    /* flex-shrink:3; */
+}  
